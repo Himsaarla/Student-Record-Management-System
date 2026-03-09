@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="loginBody">
+
+<div class="loginCard">
+
+<h2>Student System Login</h2>
+
+<input type="text" id="username" placeholder="Username">
+
+<input type="password" id="password" placeholder="Password">
+
+<button onclick="sendOTP()">Send OTP</button>
+
+<div id="otpSection" style="display:none">
+
+<input type="number" id="otpInput" placeholder="Enter OTP">
+
+<button onclick="verifyOTP()">Login</button>
+
+</div>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>
